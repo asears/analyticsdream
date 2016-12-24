@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://asears.github.io/analyticsdream/index.xml</link>
+    <link>/index.xml.html</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Dec 2016 05:33:21 -0500</lastBuildDate>
-    <atom:link href="https://asears.github.io/analyticsdream/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml.html" rel="self" type="application/rss+xml" />
     
     <item>
       <title>helloworld</title>
-      <link>https://asears.github.io/analyticsdream/post/helloworld/</link>
+      <link>/post/helloworld.html</link>
       <pubDate>Sat, 24 Dec 2016 05:33:21 -0500</pubDate>
       
-      <guid>https://asears.github.io/analyticsdream/post/helloworld/</guid>
+      <guid>/post/helloworld.html</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>

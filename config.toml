@@ -1,6 +1,9 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseurl = "https://asears.github.io/analyticsdream/"
+baseurl = ""
+relativeURLs = true
+canonifyURLs = false
+uglyurls = true
 theme = "hugo_theme_robust"
 [Params]
   Author = "Andrew Sears"
