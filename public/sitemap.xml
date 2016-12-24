@@ -7,8 +7,18 @@
   </url>
   
   <url>
-    <loc>/post/helloworld.html</loc>
-    <lastmod>2016-12-24T05:33:21-05:00</lastmod>
+    <loc>/about/my_starred_repos.html</loc>
+    <lastmod>2016-12-24T07:47:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about.html</loc>
+  </url>
+  
+  <url>
+    <loc>/about.html.html</loc>
+    <lastmod>2016-12-24T07:47:40-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

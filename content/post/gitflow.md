@@ -1,6 +1,6 @@
 +++
 date = "2016-12-24T07:47:40-05:00"
-title = "gitflow"
+title = "Git Workflow"
 draft = false
 
 +++

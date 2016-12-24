@@ -1,48 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Analytics Dream</title>
-    <link>/index.xml.html</link>
-    <description>Recent content on Analytics Dream</description>
+    <title>Abouts on Analytics Dream</title>
+    <link>/about.xml.html</link>
+    <description>Recent content in Abouts on Analytics Dream</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Dec 2016 07:47:40 -0500</lastBuildDate>
-    <atom:link href="/index.xml.html" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Git Workflow</title>
-      <link>/post/gitflow.html</link>
-      <pubDate>Sat, 24 Dec 2016 07:47:40 -0500</pubDate>
-      
-      <guid>/post/gitflow.html</guid>
-      <description>
-
-&lt;p&gt;#Elaborating on Git Flow, Gitlab Flow, GitHub Flow, and Hugo&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://analyticsangel.azurewebsites.net/index.html&#34;&gt;this web site&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;markdown cheat sheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;hugo&#34;&gt;Hugo&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;hugo quickstart&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://npf.io/2014/08/hugo-beyond-the-defaults/&#34;&gt;hugo beyond the defaults&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;git-workflow-patterns&#34;&gt;Git Workflow Patterns&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://danielkummer.github.io/git-flow-cheatsheet/&#34;&gt;git flow cheat sheet&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/integrations&#34;&gt;github integrations&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://www.nczonline.net/blog/2013/05/21/github-workflows-inside-of-a-company/&#34;&gt;github workflows inside of a company&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;Understanding the GitHub Flow&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://about.gitlab.com/2014/09/29/gitlab-flow/&#34;&gt;GitLab Flow&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://gist.github.com/djspiewak/9f2f91085607a4859a66&#34;&gt;GitDMZ Flow&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;working-with-git-api&#34;&gt;Working with Git Api&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/Axosoft/oauthd&#34;&gt;oauth&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/about.xml.html" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Starred GitHub Repos</title>

@@ -10,7 +10,7 @@
     <atom:link href="/post.xml.html" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>gitflow</title>
+      <title>Git Workflow</title>
       <link>/post/gitflow.html</link>
       <pubDate>Sat, 24 Dec 2016 07:47:40 -0500</pubDate>
       
@@ -41,16 +41,6 @@
 &lt;h3 id=&#34;working-with-git-api&#34;&gt;Working with Git Api&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/Axosoft/oauthd&#34;&gt;oauth&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>helloworld</title>
-      <link>/post/helloworld.html</link>
-      <pubDate>Sat, 24 Dec 2016 05:33:21 -0500</pubDate>
-      
-      <guid>/post/helloworld.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
