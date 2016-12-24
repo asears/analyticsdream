@@ -1,3 +1,7 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseurl = "http://example.org/"
+baseurl = "https://asears.github.io/analyticsdream/"
+theme = "hugo_theme_robust"
+[Params]
+  Author = "Andrew Sears"
+  disqusShortname = "Comments"
