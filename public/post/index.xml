@@ -6,8 +6,66 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Dec 2016 05:33:21 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Dec 2016 07:47:40 -0500</lastBuildDate>
     <atom:link href="/post.xml.html" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gitflow</title>
+      <link>/post/gitflow.html</link>
+      <pubDate>Sat, 24 Dec 2016 07:47:40 -0500</pubDate>
+      
+      <guid>/post/gitflow.html</guid>
+      <description>
+
+&lt;p&gt;#Elaborating on Git Flow, Gitlab Flow, GitHub Flow, and Hugo&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://analyticsangel.azurewebsites.net/index.html&#34;&gt;this web site&lt;/a&gt;
+&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;markdown cheat sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo&#34;&gt;Hugo&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;hugo quickstart&lt;/a&gt;
+&lt;a href=&#34;https://npf.io/2014/08/hugo-beyond-the-defaults/&#34;&gt;hugo beyond the defaults&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;git-workflow-patterns&#34;&gt;Git Workflow Patterns&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://danielkummer.github.io/git-flow-cheatsheet/&#34;&gt;git flow cheat sheet&lt;/a&gt;
+&lt;a href=&#34;https://github.com/integrations&#34;&gt;github integrations&lt;/a&gt;
+&lt;a href=&#34;https://www.nczonline.net/blog/2013/05/21/github-workflows-inside-of-a-company/&#34;&gt;github workflows inside of a company&lt;/a&gt;
+&lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;Understanding the GitHub Flow&lt;/a&gt;
+&lt;a href=&#34;https://about.gitlab.com/2014/09/29/gitlab-flow/&#34;&gt;GitLab Flow&lt;/a&gt;
+&lt;a href=&#34;https://gist.github.com/djspiewak/9f2f91085607a4859a66&#34;&gt;GitDMZ Flow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;working-with-git-api&#34;&gt;Working with Git Api&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Axosoft/oauthd&#34;&gt;oauth&lt;/a&gt;
+&lt;a href=&#34;https://api.github.com/users/asears/starred&#34;&gt;my starred repos json&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;my-starred-repos&#34;&gt;My Starred Repos&lt;/h2&gt;
+
+&lt;p&gt;Built from a Hugo JSON template &amp;amp; Git api&lt;/p&gt;
+
+&lt;ul class=&#34;ghStarred&#34;&gt;
+  {{ $url := .Get &#34;https://api.github.com/users/asears/starred&#34; }}
+  {{ range getJSON $url }}
+    {{ $p := . }}
+    &lt;li&gt;
+      &lt;a href=&#34;{{$p.owner.html_url}}&#34; target=&#34;_blank&#34;&gt;
+        &lt;img src=&#34;{{$p.owner.avatar_url}}&#34; alt=&#34;Avatar of {{$p.owner.login}}&#34; title=&#34;Avatar of {{$p.owner.login}}&#34;&gt;
+      &lt;/a&gt;
+      {{$p.language}}: &lt;strong&gt;{{ $p.name }}&lt;/strong&gt;
+      &lt;a href=&#34;{{ $p.html_url }}&#34; target=&#34;_blank&#34;&gt;{{ $p.full_name }}&lt;/a&gt;
+      &lt;br&gt;
+      Stars: {{$p.stargazers_count}} | Forks: {{$p.forks_count}} | Size: {{$p.size}}&lt;br&gt;
+      {{ $p.description }}
+      &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    {{ end }}
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>helloworld</title>
