@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Analytics Dream"
 baseurl = ""
 relativeURLs = true
 canonifyURLs = false
@@ -8,3 +8,7 @@ theme = "hugo_theme_robust"
 [Params]
   Author = "Andrew Sears"
   disqusShortname = "Comments"
+  description = "Analytics Dream"
+  Subtitle = "Blogging about clouds, lakes, streams and analytics"
+
+
